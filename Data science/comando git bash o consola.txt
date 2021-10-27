@@ -1,0 +1,10 @@
+ls --> muestra carpetas
+cd --> permite accerder a las carpetas que marcan la ruta de la carpeta que queremos clonar al repositorio
+(recuerda que a veces sólo se podrá acceder si se le ponen comillas simples a los nombres de algunas carpetas)
+git clone + enlace de la página de github del repositorio en cuestión --> permite clonar el repositorio
+tab --> puede servir para completar nombres de carpeta
+una vez que se accede a la carpeta, se pone --> "git add ."
+$ git config --global user.email "ismaelherrera97@yahoo.es" --> info del correo
+$ git config --global user.name "Isma-Herrera" --> info de mi perfil
+git commit -m "Nombre que se le pondrá a los archivos" --> paso previo al "git push origin master" (el master es el nombre que pone la consola, supongo que puede cambiar)
+$ git push origin master --> copia los archivos

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+    <div id="cajero" style="background-image: url('https://i.pinimg.com/originals/4e/d0/c1/4ed0c12d3d9f78a8c88ad891c2f9b827.jpg');">
+        <div class="container p-5 my-5 bg-primary text-white" style="background-image: url('https://images.pexels.com/photos/1272887/pexels-photo-1272887.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');">
+            <div class="row">
+                <h1 style="text-align: center;">
+                    Jellyfish Bank
+                </h1>
+                <h2 style="text-align: center;">
+                    Bienvenidx a tu cajero de confianza
+                </h2>
+                <h3 style="text-align: center;">
+                    75 años cuidando tu dinero
+                </h3>
+            </div>
+            <nav class="navbar navbar-expand-sm bg-dark navbar-primary">
+                <div class="container-fluid">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link active" href="#">Inicio</a>
+                    </li>
+                   <li class="nav-item">
+                      <a class="nav-link" href="#">Acerca de</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Responsabilidades legales</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link disabled" href="#">Contacto</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+        </div>
+        
+        <div id="caja" class="container p-5 my-5 bg-dark text-white">
+                <div class="mb-3">
+                  <label   class="form-label">Ingrese su nombre: </label>
+                  <input type="text" id="nombreUsuarix" class="form-control" aria-describedby="emailHelp">
+                  <div class="form-text">Si aún no tienes una cuenta, acude a nuestra sucursal más cercana en horario de 8:00 a 15:00 hrs.</div>
+                </div>
+                <div class="mb-3">
+                  <label for="exampleInputPassword1"  class="form-label">Ingrese su contraseña: </label>
+                  <input type="password" id="contraseñaDeUsuarix" class="form-control">
+                </div>
+                <button onclick="validarDatos();" class="btn btn-primary">Validar datos</button>
+              
+        </div>
+    
+        <div class="container p-5 my-5 bg-dark text-white">
+            <h4 style="text-align: center;">
+                ¿Qué operación deseas realizar?
+            </h4>
+            <div class="row">
+                <button type="button" onclick="consultarSaldo();" class="btn btn-primary">Consultar saldo</button>
+                <button type="button" onclick="ingresarMonto();" class="btn btn-primary">Ingresar monto</button>
+                <button type="button" onclick="retirarMonto();" class="btn btn-primary">Retirar monto</button>
+            </div>
+        </div>
+
+        <div class="container p-5 my-5 bg-dark text-white">
+            <div class="row">
+                <button type="button" onclick="cerrarSesion();" class="btn btn-danger">Cerrar sesión</button>
+            </div>
+        </div>
+    
+        <div class="container p-5 my-5 border">
+            <h3 style="font-size: small; text-align: center; color: black;">
+                Todos los derechos reservados.
+            </h3>
+            <h3 style="font-size: small; text-align: center; color: black;">
+                Jellyfish Bank no se hace responsable por el mal uso de este cajero.
+            </h3>
+        </div>
+    </div>
+    
+</body>
+
+<script src="C:\Users\Toshiba\Desktop\Professional en Coding\Intro a JS\Entrega final\script\final.js"></script>
+</html>

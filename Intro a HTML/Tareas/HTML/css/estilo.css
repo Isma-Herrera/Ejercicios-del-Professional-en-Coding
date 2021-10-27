@@ -1,0 +1,33 @@
+body{
+    background-color: cornflowerblue;
+    margin: 0;
+}
+
+#contenedor_principal{
+    background-color: cornsilk;
+    width: 100%;
+    height: 100%;
+}
+
+#encabezado{
+    background-color: ghostwhite;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+#logo{
+    padding: 10px;
+    width: 25%;
+    margin-right: 900px;
+    margin-left: 50px;
+    color: blue;
+    border: blue solid 1px;
+    font-family: fantasy;
+    font-weight: bold;
+}
+
+nav{
+    width: 50%;
+    padding: 10px 0 0 0;
+}

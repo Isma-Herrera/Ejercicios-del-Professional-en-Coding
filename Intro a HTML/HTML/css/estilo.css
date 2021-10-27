@@ -1,0 +1,25 @@
+h4 {
+    color:dodgerblue
+}
+p {
+    font-size: xx-large;
+}
+
+.mi_clase p{
+    text-align: center; color: chartreuse;
+}
+.mi_clase h1 {
+    font-size: xx-large;
+}
+#p_modificado {
+    color: darkred;
+}
+.clase_modificada h1 {
+    font-family: cursive; text-align: center;
+}
+.clase_modificada h2 {
+    color: darkviolet; font-size: xx-small;
+}
+.clase_modificada p {
+    color: dodgerblue; background-color: firebrick;
+}

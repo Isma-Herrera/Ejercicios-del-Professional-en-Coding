@@ -1,0 +1,88 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+#contenedor{
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 10% auto 10%;
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+
+.cajas_header{
+    background-color: orange;
+    width: 49vw;
+    height: 8vh;
+    border: 0.1vw solid white;
+}
+.cajas_pie{
+    background-color: lightseagreen;
+    width: 32.6vw;
+    height: 8vh;
+    border: 0.1vw solid white;
+}
+
+#principal{
+    background-color: yellow;
+    border: 0.1vw solid white;
+    margin: 0.8%;
+}
+
+.center{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+#header{
+    background-color: white;
+    margin: 0.5%;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#pie{
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 1024px) {
+    #principal{
+        background-color:teal;
+        border: 0.1vw solid white;
+        margin: 0.8%;
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .cajas_header{
+        background-color:yellowgreen;
+        width: 100vw;
+        height: 8vh;
+        border: 0.1vw solid white;
+    }
+    #header{
+        background-color: white;
+        margin: 0.5%;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto;
+    }
+    #pie{
+        background-color: white;
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto auto auto;
+    }
+    .cajas_pie{
+        background-color: crimson;
+        width: 100vw;
+        height: 8vh;
+        border: 0.1vw solid white;
+    }
+    #principal {
+        height: 71.5vh;
+    }
+}

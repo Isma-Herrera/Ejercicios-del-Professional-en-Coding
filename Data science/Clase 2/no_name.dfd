@@ -1,0 +1,47 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+4
+1
+38
+"Ingrese el monto con el que cuenta: "
+5
+1
+15
+monto_ingresado
+7
+0
+1
+25
+monto_ingresado % 15 != 0
+4
+1
+46
+"La cantidad tiene que ser un múltiplo de 15."
+13
+6
+1
+8
+personas
+20
+monto_ingresado / 15
+7
+0
+1
+12
+personas < 1
+4
+1
+62
+"El total de personas que pueden ir al cine es de " + personas
+13
+4
+1
+55
+"No cuenta con dinero suficiente para comprar boletos."
+13
+13
+1

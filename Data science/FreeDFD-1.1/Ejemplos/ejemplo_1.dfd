@@ -1,0 +1,55 @@
+ Dfd (c)
+1
+1
+1
+0
+0
+6
+2
+7
+bandera
+1
+0
+6
+numero
+10
+random(10)
+9
+1
+11
+bandera = 0
+4
+1
+19
+"Adivina el número"
+5
+1
+14
+numero_entrada
+7
+0
+1
+23
+numero = numero_entrada
+4
+1
+45
+"El número no es correcto. Intenta de nuevo."
+13
+4
+1
+35
+"El número es correcto. ¡Muy bien!"
+6
+1
+7
+bandera
+1
+1
+13
+11
+4
+1
+27
+"El programa ha finalizado"
+1

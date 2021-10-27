@@ -1,0 +1,48 @@
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    background-color: crimson;
+    color: cyan;
+    text-align: center;
+}
+
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    background-color: crimson;
+    color: darkseagreen;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkseagreen;
+    color: darkviolet;
+    font-size: large;
+}
+
+span {
+    font-family: Arial, Helvetica, sans-serif;
+    align-content: center;
+    font-size: large;
+    color:black;
+    background-color:gold;
+}
+
+.clase_h3 {
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: xx-large;
+    color:blue;
+    background-color: darkorange;
+}
+
+#bc_distinto {
+    background-color: deeppink;
+    color: firebrick;
+}
+
+#seccion {
+    text-align: center;
+}

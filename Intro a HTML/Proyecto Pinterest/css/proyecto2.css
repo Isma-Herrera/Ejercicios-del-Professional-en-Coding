@@ -1,0 +1,14 @@
+.col {
+    grid-auto-flow: row;
+    grid-auto-flow: column;
+    margin: .25%;
+    -ms-layout-grid-line: auto;
+    justify-content: space-between;
+}
+
+.row {
+    grid-auto-flow: row;
+    grid-auto-flow: column;
+    align-items: space-between;
+    justify-content: space-between;
+}

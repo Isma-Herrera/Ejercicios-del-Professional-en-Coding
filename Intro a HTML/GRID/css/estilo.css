@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#contenedor {
+    display: grid;
+    background-color: cornflowerblue;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 10vh auto 10vh;
+    width: 100vw;
+    height: 100vh;
+}
+
+#contenedor div {
+    background-color: crimson;
+    text-align: center;
+    color: white;
+    border: 2px dashed yellow;
+}
+
+#hijo_1 {
+    grid-column: 1 / 4 ;
+}
+
+#hijo_3 {
+    grid-column: 1 / 4 ;
+}
+
+#hijo_4 {
+    grid-column: 1 / 4 ;
+}
+
+.item_a {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+img {
+    border: 5px solid salmon;
+}
